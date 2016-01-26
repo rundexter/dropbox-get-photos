@@ -1,26 +1,15 @@
-/*
- * Metadata describing the module operation
- */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "path",
+            "title":"Path"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "photos",
+            "title":"Photos"
         }
-      */
     ],
-    "title": "Dropbox: Get Photos" /* Required.A display name for the module */
+    "title": "Dropbox: Get Photos"
 }
