@@ -1,12 +1,13 @@
 {
-    "name": "dropbox-get-photos",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Justin Fargione",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "dropbox-get-photos",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Justin Fargione",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "dropbox": "^0.10.3",
+    "lodash": "^3.9.3"
+  }
 }

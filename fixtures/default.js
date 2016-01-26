@@ -3,11 +3,6 @@ var _ = require('lodash')
     ;
 
 module.exports = _.merge({
-    /*
-     * Some default settings. 
-     *
-     * You can generally leave this as is for general testing purposes.
-     */
     simulation: true
     , instance_id: 'local_test_instance'
     , urls: {
@@ -73,7 +68,7 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                path: '/Public'
             }
         }
     }
