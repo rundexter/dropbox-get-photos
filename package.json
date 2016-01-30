@@ -1,7 +1,7 @@
 {
   "name": "dropbox-get-photos",
   "version": "0.0.1",
-  "description": "",
+  "description": "Get all photos in a given folder",
   "main": "index.js",
   "author": "Justin Fargione",
   "license": "ISC",
