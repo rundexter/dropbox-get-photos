@@ -11,6 +11,9 @@
             "title":"Photos"
         }
     ],
+    "providers": [
+        "dropbox"
+    ],
     "icon": "dropbox",
     "title": "Dropbox: Get Photos"
 }
