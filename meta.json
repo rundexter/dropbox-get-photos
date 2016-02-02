@@ -7,8 +7,8 @@
     ],
     "outputs": [
         {
-            "id": "photos",
-            "title":"Photos"
+            "id": "photo",
+            "title":"Photo"
         }
     ],
     "providers": [

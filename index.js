@@ -43,14 +43,14 @@ module.exports = {
                 return self.fail('Photo search failed with status ' + status);
             }
             self.complete(_.map(reply, function(meta) {
-                return {
+                return { photo: {
                     source: 'dropbox'
                     , size: meta.bytes
                     , path: meta.path
                     , id: null
                     , created: null
                     , modified: meta.modified
-                };
+                }};
             }));
 
         });
