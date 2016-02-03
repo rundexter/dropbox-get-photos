@@ -27,7 +27,7 @@ module.exports = {
                                 source: 'dropbox'
                                 , size: meta.bytes
                                 , path: meta.path
-                                , id: null
+                                , id: meta.path
                                 , created: null
                                 , modified: meta.modified
                             }};
