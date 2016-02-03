@@ -8,6 +8,7 @@
   "private": true,
   "dependencies": {
     "dropbox": "^0.10.3",
-    "lodash": "^3.9.3"
+    "lodash": "^3.9.3",
+    "q": "^1.4.1"
   }
 }
